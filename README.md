@@ -15,7 +15,7 @@ The scripts and supporting materials used in the work are then available in:
  Additionally, we created an additional script (available at `/forks-checking`) to check for the presence of forks in the explored repositories of [GitHub Mining](https://github.com/carloszimm/gh-mining-msr22). More information about how to execute it can be here [forks-checking](https://github.com/carloszimm/thesis/tree/main/mining_study/forks-checking).
 
 ## Mixed-methods Study
-The mining study was developed and submitted (to the [Software: Practice and Experience](https://onlinelibrary.wiley.com/journal/1097024x) Journal) as part of the paper titled:
+The study was developed and submitted (to the [Software: Practice and Experience](https://onlinelibrary.wiley.com/journal/1097024x) Journal) as part of the article titled:
 > On the Usability of Reactive Programming APIs: A Mixed Evaluation
 
 The scripts and supporting materials used in the work are available in:
