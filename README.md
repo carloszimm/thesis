@@ -3,8 +3,8 @@
 This repository concentrates all the scripts and materials used for the elaboration and results of the thesis "Unveiling the Usability of Reactive Programming APIs: Findings, Tools, and Recommendations"
 
 ## Mining Study
-The mining study (Section 3.1 and Chapter 4)  was developed and published as part of the following paper during the 19th International Conference on Mining Software Repositories (MSR '22):
-> Mining the Usage of Reactive Programming APIs: A Mining Study on GitHub and Stack Overflow.
+The mining study (Section 3.1 and Chapter 4) was developed and published as part of the following paper during the 19th International Conference on Mining Software Repositories (MSR '22):
+> [Mining the Usage of Reactive Programming APIs: A Mining Study on GitHub and Stack Overflow](https://dl.acm.org/doi/10.1145/3524842.3527966)
 
 The scripts and supporting materials used in the work are then available in:
 * [GitHub Mining](https://github.com/carloszimm/gh-mining-msr22)
@@ -20,6 +20,14 @@ The mixed-methods study (Section 3.2 and Chapter 5) was developed and submitted 
 
 The scripts and supporting materials used in the work are available in:
 * [Journal Repository](https://github.com/carloszimm/reactiveusability24)
+
+### UAX tool
+The UAX (Usability Analyzer Experience) was developed in part during the production of the above article, but details about its implementation including a demonstration with three reactive programming libraries are available in the following paper published at the XXXVIII Brazilian Symposium on Software Engineering:
+> [UAX: Measuring the Usability of TypeScript APIs](https://sol.sbc.org.br/index.php/sbes/article/view/30429)
+
+The UAX repositories are available at:
+* [UAX main tool](https://github.com/uax-analyzer/uax)
+* [UAX dashboard](https://github.com/uax-analyzer/uax-ui)
 
 ## Software Archive
 All the repositories, this one included, were archived through the [Software Heritage](https://www.softwareheritage.org) service.
