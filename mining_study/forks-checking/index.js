@@ -1,10 +1,33 @@
 const fs = require('fs');
 const axios = require('axios');
+const { program } = require('commander');
+
+program
+  .option('--api <string>', 'Specify the API to be analyzed', 'rxjava')
+  .option('-g, --github-token <string>', 'Specify the GitHub API token', '');
+
+program.parse();
+
+const options = program.opts();
 
 // GitHub API token
-const GITHUB_API_TOKEN = '';
+const GITHUB_API_TOKEN = options.githubToken;
 
-const FILE_NAME = 'rxjava';
+let chosenAPI = options.api;
+
+const FILE_NAME = chosenAPI === 'rxjava' || chosenAPI === 'rxjs' || chosenAPI === 'rxswift' ? chosenAPI : 'rxjava';
+
+function createRequest(apiUrl, token) {
+  if(token && token !== '') {
+    return axios.get(apiUrl, {
+      headers: {
+        Authorization: `token ${GITHUB_API_TOKEN}`
+      }
+    });
+  } else {
+    return axios.get(apiUrl);
+  }
+}
 
 // Load the JSON file
 const data = JSON.parse(fs.readFileSync(`${FILE_NAME}.json`, 'utf-8'));
@@ -18,11 +41,8 @@ const parentCount = new Map();
 async function checkForkStatus(repo) {
   const apiUrl = `https://api.github.com/repos/${repo.repoFullName}`;
   try {
-    const response = await axios.get(apiUrl, {
-      headers: {
-        Authorization: `token ${GITHUB_API_TOKEN}`
-      }
-    });
+    const response = await createRequest(apiUrl, GITHUB_API_TOKEN);
+
     const repoData = response.data;
     
     if (repoData.fork && repoData.parent) {
