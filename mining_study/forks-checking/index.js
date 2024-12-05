@@ -87,9 +87,9 @@ async function filterRepositories() {
   console.log(`Difference: ${difference}`);
   console.log(`Percentage: ${((difference/data.length) * 100).toFixed(2)}`);
   console.log(`Number of repos which missing information: ${errorCount}`);
-  console.log(`Number of forks in which their parents or simblings were present : ${forkWithRepos}`);
+  console.log(`Number of repos in which their parents or siblings were present: ${forkWithRepos}`);
 
-  // Optional: Save the filtered list to a new file
+  // Save the filtered list to a new file
   fs.writeFileSync(`./results/repos_without_forks_${FILE_NAME}.json`, JSON.stringify(filteredRepos, null, 2), 'utf-8');
 }
 
