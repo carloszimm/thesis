@@ -12,7 +12,7 @@ The scripts and supporting materials used in the work are then available in:
 * [Operators Scraping](https://github.com/carloszimm/rx-scraping-msr22)
 
 ### Forks checking
- Additionally, we created an additional script (available at `/forks-checking`) to check for the presence of forks in the explored repositories of [GitHub Mining](https://github.com/carloszimm/gh-mining-msr22). More information about how to execute it can be here [forks-checking](https://github.com/carloszimm/thesis/tree/main/mining_study/forks-checking).
+ Additionally, we created an additional script (available at `/mining_study/forks-checking`) to check for the presence of forks in the explored repositories of [GitHub Mining](https://github.com/carloszimm/gh-mining-msr22). More information about how to execute it can be here [forks-checking](https://github.com/carloszimm/thesis/tree/main/mining_study/forks-checking).
 
 ## Mixed-methods Study
 The mixed-methods study (Section 3.2 and Chapter 5) was developed and submitted (to the [Software: Practice and Experience](https://onlinelibrary.wiley.com/journal/1097024x) Journal) as part of the article titled:
