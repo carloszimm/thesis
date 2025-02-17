@@ -33,5 +33,23 @@ The UAX repositories are available at:
 ## Software Archive
 All the repositories, this one included, were archived through the [Software Heritage](https://www.softwareheritage.org) service.
 
+## 📖 Citation
+
+If you use this repository in your research, please cite it as:
+
+Carlos Zimmerle (2025). *Unveiling the Usability of Reactive Programming APIs: Findings, Tools, and Recommendations*. GitHub. [DOI](https://doi.org/10.5281/zenodo.14884110)
+
+Or use the following BibTeX entry:
+
+```bibtex
+@misc{your_name_2025,
+  author       = {Carlos Zimmerle},
+  title        = {Unveiling the Usability of Reactive Programming APIs: Findings, Tools, and Recommendations},
+  year         = {2025},
+  publisher    = {GitHub},
+  doi          = {10.5281/zenodo.14884110},
+  url          = {https://github.com/carloszimm/thesis}
+}
+
 ## License
 The texts, figures, and research materials are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). Plese see [License file](https://github.com/carloszimm/thesis/blob/main/LICENSE.md) for more information.
