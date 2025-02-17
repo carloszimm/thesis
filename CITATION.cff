@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as follows."
+authors:
+  - name: "Carlos Zimmerle"
+    affiliation: "CIn-UFPE"
+    orcid: "0009-0008-7574-4190"
+title: "Unveiling the Usability of Reactive Programming APIs: Findings, Tools, and Recommendations"
+version: "1.0"
+doi: "10.5281/zenodo.14884110"
+date-released: "2025-02-16"
+license: "CC-BY-4.0"
