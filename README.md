@@ -50,6 +50,7 @@ Or use the following BibTeX entry:
   doi          = {10.5281/zenodo.14884110},
   url          = {https://github.com/carloszimm/thesis}
 }
+```
 
 ## License
 The texts, figures, and research materials are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0). Plese see [License file](https://github.com/carloszimm/thesis/blob/main/LICENSE.md) for more information.
