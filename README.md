@@ -1,5 +1,5 @@
 # Unveiling the Usability of Reactive Programming APIs: Findings, Tools, and Recommendations
-[![DOI](https://zenodo.org/badge/898618439.svg)](https://doi.org/10.5281/zenodo.14884110)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14884110.svg)](https://doi.org/10.5281/zenodo.14884110)
 
 This repository concentrates all the scripts and materials used for the elaboration and results of the thesis "Unveiling the Usability of Reactive Programming APIs: Findings, Tools, and Recommendations"
 
